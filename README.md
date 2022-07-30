@@ -1,2 +1,2 @@
-# kokoatalk-clone-coding
+# kokoa talk-clone-coding
 
