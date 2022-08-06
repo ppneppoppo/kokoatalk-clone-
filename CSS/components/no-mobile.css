@@ -1,9 +1,9 @@
 #no-mobile {
   position: absolute;
   z-index: 99;
-  height: 100vh;
+  height: 1000vh;
   background-color: var(--peach);
-  width: 100vw;
+  width: 1000vw;
   display: flex;
   justify-content: center;
   align-items: center;
