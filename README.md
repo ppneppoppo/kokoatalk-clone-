@@ -1,2 +1,0 @@
-# kokoa talk-clone-coding
-
