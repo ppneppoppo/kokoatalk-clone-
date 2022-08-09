@@ -28,7 +28,7 @@
   color: rgba(0, 0, 0, 0.5);
 }
 .recommended-friends span {
-  margin: 100px 0;
+  margin: 80px 0;
   display: block;
   text-align: center;
   font-size: 18px;
@@ -87,6 +87,7 @@
   width: 120px;
   height: 120px;
   border-radius: 10px;
+  margin-bottom: 7px;
 }
 .open-post__heart-count {
   background-color: rgba(0, 0, 0, 0.5);
