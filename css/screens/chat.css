@@ -54,7 +54,8 @@
   margin-right: 10px;
 }
 .message__author {
-  margin-bottom: 5px;
+  font-size: 14px;
+  margin-bottom: 7px;
   display: block;
 }
 .message__info {
@@ -69,14 +70,20 @@
   border-top-left-radius: 0px;
   margin-right: 5px;
 }
-.message__time,
-.message__author {
+.message__time{
   opacity: 0.8;
+  font-size: 11px;
+  z-index: -1;
+}
+.message__author {
   font-size: 14px;
+  margin-bottom: 7px;
+  display: block;
 }
 .message-row--own {
   justify-content: flex-end;
 }
+
 .message-row--own .message__bubble {
   background-color: var(--peach);
   border-top-right-radius: 0px;
