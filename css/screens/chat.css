@@ -17,16 +17,35 @@
   top: 20px;
   z-index: 1;
 }
-@keyframes fadeIn{
-  from{
-    transform: translateY(-10px);
+@keyframes fadeLeft{
+  0% {
+    transform: none;
     opacity: 0;
   }
-  to{
-    transform: none;
-    opacity :1;
+  50%{
+    transform: transformX(-30px);
+    opacity :0;
+  }
+  100%{
+    opacity : 1;
+    transform : none;
   }
 }
+@keyframes fadeRight{
+  0% {
+    transform: none;
+    opacity: 0;
+  }
+  50%{
+    transform: transformX(30px);
+    opacity :0;
+  }
+  100%{
+    opacity : 1;
+    transform : none;
+  }
+}
+
 .main-chat {
   margin-top: 180px;
   display: none;
@@ -54,6 +73,8 @@
   transform: translateX(-30px);
   opacity: 0;
   justify-content: flex-end;
+  animation : fadeRight 1s ease-in-out forwards;
+  animation-delay : 0.7s;
 }
 .message-row img {
   width: 50px;
