@@ -61,12 +61,16 @@
   margin-bottom: 25px;
 }
 
-.message-row {
+.message--row{
+width : 100%;
+display : flex;
+margin-bottom : 25px; 
+}
+
+.message-row-you {
   transform: translateX(-30px);
   opacity: 0;
-  width: 100%;
-  display: flex;
-  margin-bottom: 25px;
+  animation : fadeLeft 1s ease-in-out forwards;
 }
 
 .message-row--own{
@@ -89,11 +93,11 @@
 }
 .message__bubble {
   background-color: white;
-  padding: 13px;
-  font-size: 18px;
+  padding: 10px 12px;
+  font-size: 17px;
   border-radius: 15px;
   border-top-left-radius: 0px;
-  margin-right: 5px;
+  margin-right: 4px;
 }
 .message__time {
   opacity: 0.8;
