@@ -42,6 +42,21 @@
   border-radius: 25px;
   margin-bottom: 25px;
 }
+
+.message-row {
+  transform: translateX(-30px);
+  opacity: 0;
+  animation: fadeLeft 1s ease-in-out forwards;
+}
+
+.message-row--own {
+  transform: translateX(-30px);
+  opacity: 0;
+  animation: fadeRight 1s ease-in-out forwards;
+  animation-delay: 0.7s;
+}
+
+
 .message-row {
   width: 100%;
   display: flex;
@@ -53,6 +68,7 @@
   border-radius: 50%;
   margin-right: 10px;
 }
+
 .message__author {
   margin-bottom: 5px;
   display: block;
