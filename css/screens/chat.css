@@ -14,7 +14,7 @@
   z-index: 2;
 }
 #chat-screen .alt-header {
-  top: 15px;
+  top: 30px;
 }
 @keyframes fadeLeft{
   0% {
@@ -76,7 +76,9 @@
 .message--row {
   width : 100%;
   display : flex;
-  margin-bottom : 25px; 
+  margin-top :25px;
+  margin-bottom : 25px;
+  align-items : left;
 }
 .message-row img {
   width: 50px;
@@ -94,6 +96,7 @@
 .message__info {
   display: flex;
   align-items: flex-end;
+  margin-top : 10px;
 }
 .message__bubble {
   background-color: white;
