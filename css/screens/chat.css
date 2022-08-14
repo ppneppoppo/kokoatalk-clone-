@@ -14,7 +14,8 @@
   z-index: 2;
 }
 #chat-screen .alt-header {
-  top: 30px;
+  top: 10px;
+  z-index: 1;
 }
 @keyframes fadeLeft{
   0% {
@@ -44,6 +45,7 @@
     transform : none;
   }
 }
+
 .message-row-you {
   transform: translateX(-30px);
   opacity: 0;
@@ -93,17 +95,20 @@
   margin-bottom : 7px;
   display : block;
 }
+
 .message__info {
   display: flex;
   align-items: flex-end;
   margin-top : 10px;
 }
+
 .message__bubble {
   background-color: white;
   padding: 8px 13px;
   font-size: 18px;
   border-radius: 15px;
   border-top-left-radius: 0px;
+  margin-left : 0;
   margin-right : 4px;
 }
 
