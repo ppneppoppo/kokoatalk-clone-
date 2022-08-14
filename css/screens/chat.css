@@ -117,7 +117,7 @@
 .reply input {
   padding: 14px;
   width: 100%;
-  border: var(--main-border);
+  border: var(--peach);
   border-radius: 25px;
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
@@ -134,7 +134,7 @@
   top: 15px;
 }
 .reply__column button {
-  background-color: var(--yellow);
+  background-color: var(--peach);
   border: none;
   width: 40px;
   height: 40px;
