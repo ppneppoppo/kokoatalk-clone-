@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 11000vh;
+  height: 1100vh;
 }
 #chat-screen .alt-header,
 #chat-screen .status-bar {
@@ -79,6 +79,7 @@
   width : 100%;
   display : flex;
   margin-bottom : 25px; 
+  align-items: left;
 }
 .message-row img {
   width: 50px;
@@ -95,6 +96,7 @@
 .message__info {
   display: flex;
   align-items: flex-end;
+  margin-bottom: 7px;
 }
 
 .message__bubble {
