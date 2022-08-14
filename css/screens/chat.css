@@ -58,7 +58,6 @@
   opacity: 0;
   animation : fadeRight 1s ease-in-out forwards;
   animation-delay : 0.7s;
-  justify-content: flex-end;
 }
 
 .message-row-you:last-child { 
@@ -90,6 +89,10 @@ animation-delay: 1.4s;
   height: 50px;
   border-radius: 50%;
 }
+.message__author {
+  font-size: 14px;
+  margin-bottom : 7px;
+  display : block;}
 
 .message__info {
   display: flex;
@@ -98,7 +101,7 @@ animation-delay: 1.4s;
 
 .message__bubble {
   background-color: white;
-  padding: 5px 10px;
+  padding: 10px 12px;
   font-size: 17px;
   border-radius: 15px;
   border-top-left-radius: 0px;
@@ -108,12 +111,10 @@ animation-delay: 1.4s;
   font-size: 11px;
   z-index: -1;
 }
-.message__author {
-  font-size: 14px;
-  margin-bottom : 7px;
-  display : block;
-}
 
+.message-row--own {
+ justify-content: flex-end;
+}
 .message-row--own .message__bubble {
   background-color: var(--peach);
   border-top-right-radius: 0;
