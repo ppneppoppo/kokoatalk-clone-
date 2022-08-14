@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 500vh;
+  height: 11000vh;
 }
 #chat-screen .alt-header,
 #chat-screen .status-bar {
@@ -14,7 +14,8 @@
   z-index: 2;
 }
 #chat-screen .alt-header {
-  top: 20px;
+  top: 30px;
+  z-index : 1;
 }
 @keyframes fadeLeft{
   0% {
@@ -46,7 +47,7 @@
 }
 
 .main-chat {
-  margin-top: 70px;
+  margin-top: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,16 +56,16 @@
 .chat__timestamp {
   color: #fff;
   background-color: #92a4b2;
-  padding: 9px 16px;
+  padding: 15px;
   font-size: 12px;
   border-radius: 20px;
   margin-bottom: 25px;
 }
 
-.message--row{
-width : 100%;
-display : flex;
-margin-bottom : 25px; 
+.message--row {
+  width : 100%;
+  display : flex;
+  margin-bottom : 25px; 
 }
 
 .message-row-you {
@@ -81,9 +82,9 @@ margin-bottom : 25px;
   justify-content: flex-end;
 }
 .message-row img {
-  width: 55px;
-  height: 55px;
-  border-radius: 21px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   margin-right: 10px;
 }
 
