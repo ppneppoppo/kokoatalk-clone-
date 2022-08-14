@@ -45,11 +45,7 @@
     transform : none;
   }
 }
-.message--row {
-  width : 100%;
-  display : flex;
-  margin-bottom : 25px; 
-}
+
 
 .message-row-you {
   transform: translateX(-30px);
@@ -83,7 +79,11 @@ animation-delay: 1.4s;
   border-radius: 20px;
   margin-bottom: 25px;
 }
-
+.message--row {
+  width : 100%;
+  display : flex;
+  margin-bottom : 25px; 
+}
 
 .message-row img {
   width: 50px;
