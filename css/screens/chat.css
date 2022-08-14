@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 1100vh;
+  height: 11000vh;
 }
 #chat-screen .alt-header,
 #chat-screen .status-bar {
@@ -14,62 +14,35 @@
   z-index: 2;
 }
 #chat-screen .alt-header {
-  top: 25px;
+  top: 10px;
   z-index: 1;
 }
-@keyframes fadeLeft{
-  0% {
-    transform: none;
+.main-chat{
+  margin-top : 150px;
+}
+
+@keyframes fadeIn{
+  from {
+    transform: translateY(30px);
     opacity: 0;
   }
-  50%{
-    transform: transformX(-30px);
-    opacity :0;
-  }
-  100%{
-    opacity : 1;
-    transform : none;
-  }
-}
-@keyframes fadeRight{
-  0% {
+  to {
     transform: none;
-    opacity: 0;
-  }
-  50%{
-    transform: transformX(30px);
-    opacity :0;
-  }
-  100%{
-    opacity : 1;
-    transform : none;
+    opacity :1;
   }
 }
-
-.message-row-you {
-  transform: translateX(-10px);
-  opacity: 0;
-  animation : fadeLeft 1s ease-in-out forwards;
-}
-
-.message-row--own{
-  transform: translateX(-10px);
-  opacity: 0;
-  animation : fadeRight 1s ease-in-out forwards;
-  animation-delay : 0.7s;
-}
-
 .main-chat {
-  margin-top: 70px;
+  margin-top: 180px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation : fadeIn 0.8s linear;
  }
 
 .chat__timestamp {
   color: white;
   background-color: #92a4b2;
-  padding: 9px 16px;
+  padding: 15px;
   font-size: 14px;
   border-radius: 20px;
   margin-bottom: 25px;
@@ -78,21 +51,17 @@
 .message--row {
   width : 100%;
   display : flex;
-  margin-top :25px;
   margin-bottom : 25px;
-  align-items : left;
 }
 
 .message-row img {
   width: 50px;
   height: 50px;
-  border-radius: 21px;
+  border-radius: 50%;
   margin-right :10px;
 }
 
 .message__author {
-  opacity : 0.8;
-  font-size : 14px;
   margin-bottom : 7px;
   display : block;
 }
@@ -100,7 +69,6 @@
 .message__info {
   display: flex;
   align-items: flex-end;
-  margin-top : 10px;
 }
 
 .message__bubble {
@@ -111,21 +79,20 @@
   border-top-left-radius: 0px;
   margin-right : 4px;
 }
-
-.message__time {
-  opacity: 0.8;
-  font-size: 11px;
-  z-index: -1;
+.message__time,
+.message__author {
+  opacity : 0.8;
+  font-size : 14px;
 }
-
 .message-row--own {
  justify-content: flex-end;
 }
 
 .message-row--own .message__bubble {
   background-color: var(--peach);
-  border-top-right-radius: 0;
+  border-top-right-radius: 0px;
   border-top-left-radius: 15px;
+  margin-right : 0px;
   margin-left : 5px;
 }
 
