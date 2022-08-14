@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 1000vh;
+  height: 11000vh;
 }
 #chat-screen .alt-header,
 #chat-screen .status-bar {
@@ -14,8 +14,7 @@
   z-index: 2;
 }
 #chat-screen .alt-header {
-  top: 10px;
-  z-index : 1;
+  top: 15px;
 }
 @keyframes fadeLeft{
   0% {
@@ -58,9 +57,7 @@
   animation-delay : 0.7s;
 }
 
-.message-row-you:last-child { 
-  animation-delay: 1.4s;
-}
+
 
 .main-chat {
   margin-top: 180px;
@@ -77,6 +74,7 @@
   border-radius: 20px;
   margin-bottom: 25px;
 }
+
 .message--row {
   width : 100%;
   display : flex;
