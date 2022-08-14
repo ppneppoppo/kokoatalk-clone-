@@ -59,7 +59,7 @@
 }
 
 .message-row-you:last-child { 
-animation-delay: 1.4s;
+  animation-delay: 1.4s;
 }
 
 .main-chat {
@@ -74,7 +74,7 @@ animation-delay: 1.4s;
   background-color: #92a4b2;
   padding: 9px 16px;
   font-size: 14px;
-  border-radius: 25px;
+  border-radius: 20px;
   margin-bottom: 25px;
 }
 .message--row {
@@ -85,10 +85,11 @@ animation-delay: 1.4s;
 .message-row img {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
+  border-radius: 21px;
   margin-right :10px;
 }
 .message__author {
+  font-size :14px;
   margin-bottom : 7px;
   display : block;
 }
@@ -106,15 +107,11 @@ animation-delay: 1.4s;
   border-top-left-radius: 0px;
   margin-right : 5px;
 }
+
 .message__time {
   opacity: 0.8;
   font-size: 11px;
   z-index: -1;
-}
-
-.message__author {
-  opacity: 0.8;
-  font-size : 14px;
 }
 
 .message-row--own {
@@ -132,9 +129,6 @@ animation-delay: 1.4s;
 .message-row--own .message__info {
   flex-direction: row-reverse;
 }
-
-
-
 
 .reply {
   position: fixed;
@@ -162,59 +156,59 @@ animation-delay: 1.4s;
 }
 
 .reply input {
-  padding: 14px;
+  padding: 10px;
   width: 100%;
   border: var(--main-border);
-  border-radius: 25px;
-  box-sizing: border-box;
-  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .reply__column:last-child > i,
 .reply__column:last-child button {
   position: absolute;
-  right: 3px;
-  top: 3px;
+  right: -18px;
+  top: 4px;
 }
 
 .reply__column:last-child > i {
-  right: 50px;
-  top: 15px;
+  right: 19px;
+  top: 12.5px;
 }
 
 .reply__column button {
   background-color: var(--peach);
   border: none;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
 }
 
 .reply__column button i {
   opacity: 1;
 }
+
+.reply__column button:hover,
 .reply__column button:focus,
 .reply__column button:active {
+  cursor :pointer;
   outline: none;
 }
 .reply.reply__column:first-child,
 .reply.fa-smile-wink,
 .reply button {
-transition : opacity 0.3 ease-in-out;
+  transition : opacity 0.3 ease-in-out;
 }
 
-.reply:focus-within .reply__column:first-child {
-  opacity:0;
-  visibility:hidden;
-}
+.reply:focus-within .reply__column:first-child,
 .reply:focus-within.fa-smile-wink,
 .reply:focus-within button {
   opacity: 0;
 }
 
 .reply input:focus{
-  width:98vw;
+  width:90vw;
   transform:translateX(-13%) translateY(-80px);
+  outline : none;
 }
 
 .reply:focus-within{
