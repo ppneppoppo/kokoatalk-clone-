@@ -69,13 +69,13 @@
 }
 
 .message-row-you {
-  transform: translateX(-10px);
+  transform: translateX(-30px);
   opacity: 0;
   animation : fadeLeft 1s ease-in-out forwards;
 }
 
 .message-row--own{
-  transform: translateX(-10px);
+  transform: translateX(-30px);
   opacity: 0;
   animation : fadeRight 1s ease-in-out forwards;
   animation-delay : 0.7s;
