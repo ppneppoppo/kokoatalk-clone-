@@ -56,7 +56,7 @@
 .chat__timestamp {
   color: #fff;
   background-color: #92a4b2;
-  padding: 15px;
+  padding: 9px 16px;
   font-size: 12px;
   border-radius: 20px;
   margin-bottom: 25px;
@@ -81,6 +81,9 @@
   animation-delay : 0.7s;
   justify-content: flex-end;
 }
+
+.message-row-you:last-child { 
+animation-delay: 1.4s;}
 .message-row img {
   width: 50px;
   height: 50px;
