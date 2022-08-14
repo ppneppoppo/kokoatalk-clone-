@@ -79,7 +79,7 @@
   width : 100%;
   display : flex;
   margin-bottom : 25px; 
-  align-items: left;
+  margin-left: 5px;
 }
 .message-row img {
   width: 50px;
