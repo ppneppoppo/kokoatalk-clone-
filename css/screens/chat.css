@@ -82,7 +82,7 @@
   justify-content: flex-end;
 }
 .message-row--own .message__bubble {
-  background-color: var(--yellow);
+  background-color: var(--peach);
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
   margin-right: 0px;
