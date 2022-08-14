@@ -51,6 +51,7 @@
   width : 100%;
   display : flex;
   margin-bottom : 25px;
+  align-items : left;
 }
 
 .message-row img {
