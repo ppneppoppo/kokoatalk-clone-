@@ -115,7 +115,7 @@
   display: flex;
   align-items: center;
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
   right: 10px;
   font-size: 12px;
 }
@@ -130,7 +130,7 @@
   }
   50% {
     color : tomato;
-    transform: none;
+    transform: scale(1.5);
   }
   100%{
     color: white;
