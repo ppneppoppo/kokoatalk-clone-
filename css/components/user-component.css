@@ -23,12 +23,8 @@
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
 }
-.user-component__title2 {
-  margin-left : 20px;
-  font-weight: 600;
-  font-size: 22px;
-}
-.user-component__subtitle {
+
+.user-component__subtitle2 {
   margin-left : 20px;
   margin-top: 8px;
   font-size: 17px;
