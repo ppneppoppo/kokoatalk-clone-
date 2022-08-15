@@ -38,6 +38,14 @@
   align-items : center;
 }
 
+.user-component__avatar--xs {
+  width: 35px;
+  height: 35px;
+  border-radius: 15px;
+  margin-right: 10px;
+  align-items : center;
+}
+
 .user-component__title--not-bold {
   font-weight: 400;
 }
