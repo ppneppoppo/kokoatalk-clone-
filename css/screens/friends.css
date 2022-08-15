@@ -53,3 +53,5 @@
   animation: hideSplashScreen 0.3s ease-in-out forwards;
   animation-delay: 1s;
 }
+.splash-screen__icon-image i {
+ color: var(--peach);}
