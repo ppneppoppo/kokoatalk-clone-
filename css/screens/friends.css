@@ -25,6 +25,10 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+.user-component {
+  margin-top: 10px;
+}
+
 @keyframes hideSplashScreen {
   from {
     opacity: 1;
